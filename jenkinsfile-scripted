@@ -4,8 +4,7 @@ node {
     
     stage('Code checkout') {
         
-       git branch: 'main', credentialsId: 'github_cred', url: 'https://github.com/AnuTechnologies/maven-web-app.git' 
-        
+        git branch: 'main', credentialsId: 'github_cred_at', url: 'https://github.com/AKHIl4496/maven-web-app.git'        
         
     }
     
